@@ -1,4 +1,4 @@
-# MyTube
+# VOD-Service
 유튜브와 같이 웹에서 VOD 서비스를 제공하는 프로젝트
 
 
