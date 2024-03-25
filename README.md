@@ -16,24 +16,11 @@
 >      - 테스트 환경 : h2
 >   - Codec : ffmpeg
 >   - Message Queue : Kafka
-------------------------------------
+
+
 프로젝트 구성 서버
 -------------------------
 ### 1. [**VOD Service Server**](https://github.com/kyo705/VOD-Service-Server) : 웹으로 VOD 서비스를 제공하는 서버
 ### 2. [**Uploading Server**](https://github.com/kyo705/Video-Uploading-Server) : VOD 서비스에서 유저의 파일 업로드를 처리하는 서버
 ### 3. [**Transcoding Server**](https://github.com/kyo705/Video-Transcoding-Server) : 기본 동영상 파일을 웹에서 스트리밍하도록 동영상 인코딩하는 서버
 
-
--------------------------------
-## 시퀀스 다이어그램
-
-### 1. 업로드 시퀀스 다이어그램
-
-![image](https://github.com/kyo705/MyTube/assets/89891704/9295c844-fc3c-4037-9de4-badd377ea2e6)
-
-
-### 2. 다운로드 시퀀스 다이어그램
---------------------------------------
-## ERD
-
-![vod_service_ERD](https://github.com/kyo705/MyTube/assets/89891704/eae31b45-c52d-44d7-8512-fd01b04b2320)
